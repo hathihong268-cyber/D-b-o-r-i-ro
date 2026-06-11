@@ -10,8 +10,8 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 # 1) SET PAGE CONFIG (Lệnh Streamlit đầu tiên)
 st.set_page_config(
     layout="wide",
-    page_title="Hệ Thống Phát Hiện Gian Lận & Rủi Ro Tín Dụng",
-    page_icon="🛡️"
+    page_title="Hệ Thống Phát Hiện Gian Lận tại Agribank",
+    page_icon="❤️"
 )
 
 # 2) IMPORT & CÁC HÀM CACHE DÙNG CHUNG
