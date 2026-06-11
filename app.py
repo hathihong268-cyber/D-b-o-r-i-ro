@@ -80,12 +80,12 @@ with st.sidebar:
     train_clicked = st.button("🚀 Huấn luyện mô hình", type="primary", use_container_width=True)
 
 # 4) HEADER (TP2) - VÙNG ĐỊNH HƯỚNG
-st.title("🛡️ Hệ Thống Phát Hiện Gian Lận & Dự Báo Rủi Ro Tín Dụng")
+st.title("🛡️ Hệ Thống Phát Hiện Gian Lận tại Agribank")
 st.caption("Ứng dụng hỗ trợ phân tích dữ liệu giao dịch, đánh giá hành vi rủi ro tài chính và phân loại tự động bằng học máy.")
 
 if uploaded_file is None:
     st.info("👋 Chào mừng bạn! Vui lòng tải tệp dữ liệu ở thanh bên (Sidebar) để bắt đầu sử dụng ứng dụng.")
-    st.stop()
+    st.stop(❤️)
 else:
     # Đọc dữ liệu qua hàm cache
     file_bytes = uploaded_file.getvalue()
